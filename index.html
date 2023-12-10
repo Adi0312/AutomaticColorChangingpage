@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title> Manual Color change app by Aditya</title>
+		<style>
+			*{ font-size:40px;}
+
+		</style>
+		<script>
+			
+			function change()
+			{
+			  
+			  let colors = ["orange","pink","red","purple","blue"];
+			  let r = parseInt(Math.random() * colors.length);
+			  document.body.style.backgroundColor = colors[r];
+			}
+		</script>
+	</head>
+
+<body>
+<center>
+	<h1> Automatic Color Change App </h1>
+	<script>
+		change();
+		setInterval(change,5000);
+	</script>
+
+
+
+
+
+</body>
+</html>
